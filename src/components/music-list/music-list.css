@@ -1,0 +1,42 @@
+.music-list-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.music-list {
+    width: 100%;
+    max-height: 300px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: unset;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.music-list:hover {
+    transition: all 2s ease;
+    opacity: 0.8;
+}
+
+.music-list>span {
+    flex: 1;
+    text-align: left;
+}
+
+.music-list>img {
+    height: 100px;
+    width: 100px;
+    padding-right: 40px;
+}
+
+.music-list span {
+    display: flex;
+    font-size: 20px;
+    padding: 0 16px;
+}

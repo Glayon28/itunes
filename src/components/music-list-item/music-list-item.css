@@ -1,0 +1,63 @@
+.music-list-item-wrapper:nth-child(odd) {
+    background-color: #F0F8FF
+}
+
+.music-list-item-wrapper:nth-child(even) {
+    background-color: #F0FFFF;
+}
+
+.music-list-item-hidden {
+    padding-left: 170px;
+}
+
+.genre{
+    display: none;
+}
+
+.music-list-item-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px 0;
+}
+
+.music-list-item-info span {
+    font-size: 18px;
+    width: 50%;
+    padding: 3px 0;
+}
+
+.music-list-item-info>div {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+}
+
+.music-list-item-track {
+    font-size: 30px;
+    color: #808080;
+}
+
+.plus {
+    transform: translateY(-7%) translateX(-40px) rotate(90deg);
+    height: 43px;
+    width: 12px;
+    background-color: black;
+    margin-right: 5px;
+    border: none;
+}
+
+.minus {
+    display: block;
+    position: absolute;
+    transition: 0.3s all;
+    transform: translateY(-52%) translateX(-6px) rotate(270deg);
+    width: 12px;
+    height: 43px;
+    background-color: black;
+    padding: 0 !important;
+}
+
+.minus-hidden {
+    transition: 0.3s all;
+    transform: rotate(0deg) translateY(-22px) translateX(-6px);
+}

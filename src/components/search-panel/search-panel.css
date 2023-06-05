@@ -1,0 +1,29 @@
+.search-panel-wrapper {
+    padding-top: 30px;
+}
+
+.search-panel-wrapper button {
+    outline: none;
+    border: 0;
+    background-color: #F0FFFF;
+}
+
+.search-panel {
+    width: 100%;
+    padding: 6px;
+    border-radius: 4px
+}
+
+.search-panel-wrapper img {
+    position: absolute;
+    width: 25px;
+    right: 5px;
+    top: 2px;
+}
+
+.search-panel-item {
+    display: flex;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+}

@@ -1,0 +1,120 @@
+@media (max-width: 1919px){
+    .search-panel-item{
+        width: 23%;
+    }
+}
+
+@media (max-width: 1200px){
+    .search-panel-item{
+        width: 40%;
+    }
+}
+
+@media (max-width: 991px){
+    .plus{
+        transform: translateY(0%) translateX(0px) rotate(90deg);
+    }
+
+    .music-list span{
+        font-size: 18px;
+    }
+
+    .music-list-item-track{
+        font-size: 25px;
+    }
+
+    .search-panel-item{
+        width: 35%;
+    }
+
+    .music-list-item-info span {
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px){
+    .xs-hidden{
+        display: none;
+    }
+
+    .search-panel-item{
+        width: 48%;
+    }
+    
+    .music-list-item-hidden{
+        padding-left: 70px;
+    }
+
+    .music-list>img{
+        padding-right: 0;
+    }
+
+    .app-info{
+        padding: 0 0 0 117px;
+    }
+
+    .music-list{
+        padding: 15px 3px;
+    }
+
+    .music-list span{
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 575px){
+    .music-list > span:nth-child(4){
+        display: none;
+    }
+
+    .music-list > span:nth-child(5){
+        display: none;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .genre{
+        display: block;
+    }
+
+    .music-list>img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .app-info{
+        padding: 0 0 0 88px;
+    }
+
+    .music-list{
+        padding: 15px 2px;
+    }
+
+    .music-list > span{
+        display: block;
+        font-size: 20px;
+        padding: 0 19px;
+    }
+
+    .app-info button{
+        font-size: 15px;
+    }
+
+    .search-panel-item{
+        width: 50%;
+    }
+
+    .music-list-item-track{
+        font-size: 23px;
+    }
+
+    .music-list-item-hidden{
+        padding-left: 13px;
+    }
+
+    .music-list-item-info span{
+        width: 100%;
+    }
+}
